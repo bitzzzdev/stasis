@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.bitz.smartticks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockEntityMixin",
+    "BrewingStandBlockEntityMixin",
+    "ChestBlockEntityMixin",
+    "ComparatorBlockEntityMixin",
+    "FurnaceBlockEntityMixin",
+    "HopperBlockEntityMixin",
+    "WorldChunkTickInvokerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
